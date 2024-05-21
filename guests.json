@@ -1,0 +1,80 @@
+[
+  {
+    "first_name": "Camille",
+    "last_name": "Heidelberg",
+    "company": "SEFE",
+    "role": "Project Manager"
+  },
+  {
+    "first_name": "Youssef",
+    "last_name": "Hicham",
+    "company": "SEFE",
+    "role": "Consultant"
+  },
+  {
+    "first_name": "Jean-François",
+    "last_name": "Martin",
+    "company": "SEFE",
+    "role": "RC Agent"
+  },
+  {
+    "first_name": "Joel",
+    "last_name": "Ndambou",
+    "company": "SEFE",
+    "role": "RC"
+  },
+  {
+    "first_name": "Kawtar",
+    "last_name": "Maal",
+    "company": "SEFE",
+    "role": "Data Engineer"
+  },
+  {
+    "first_name": "Mounir",
+    "last_name": "Ab.",
+    "company": "SEFE",
+    "role": "Director"
+  },
+  {
+    "first_name": "Sarah",
+    "last_name": "Halim",
+    "company": "SEFE",
+    "role": "Consultant"
+  },
+  {
+    "first_name": "Yassine",
+    "last_name": "Houdaj",
+    "company": "SEFE",
+    "role": "Consultant"
+  },
+  {
+    "first_name": "Issam",
+    "last_name": "Reda",
+    "company": "SEFE",
+    "role": "Consultant"
+  },
+  {
+    "first_name": "Sandrine",
+    "last_name": "K.",
+    "company": "SEFE",
+    "role": "Manager"
+  },
+  {
+    "first_name": "Julien",
+    "last_name": "Termas",
+    "company": "SEFE",
+    "role": "Support Engineer"
+  },
+  {
+    "first_name": "Narjis",
+    "last_name": "Jamila",
+    "company": "SEFE",
+    "role": "Sales"
+  },
+  {
+    "first_name": "Eric",
+    "last_name": "Ben.",
+    "company": "SEFE",
+    "role": "Data Architect"
+  }
+]

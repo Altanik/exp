@@ -1,0 +1,15 @@
+{
+  "additional_information": "{}",
+  "amount": 2099,
+  "amount_wo_vat": null,
+  "attachments": [
+    {
+      "id": "5e84d861-26ab-4adf-aba8-266ebd71180f"
+    }
+  ],
+  "category": 2,
+  "client": "e0f099e1-92ae-4a76-8308-8512f954f188",
+  "date": "2024-02-16T00:00:00.000+01:00",
+  "name": "CELL PLAN 02/24",
+  "rebillable": false
+}

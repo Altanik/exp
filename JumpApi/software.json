@@ -1,0 +1,15 @@
+{
+  "additional_information": "{}",
+  "amount": 2000,
+  "amount_wo_vat": null,
+  "attachments": [
+    {
+      "id": "8ff147e4-7e4b-45ee-b787-eeaea196185e"
+    }
+  ],
+  "category": 5,
+  "client": "e0f099e1-92ae-4a76-8308-8512f954f188",
+  "date": "2024-02-13T00:00:00.000+01:00",
+  "name": "SOFTWARE 02/24",
+  "rebillable": false
+}

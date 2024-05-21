@@ -1,0 +1,15 @@
+{
+  "additional_information": "{}",
+  "amount": 3499,
+  "amount_wo_vat": null,
+  "attachments": [
+    {
+      "id": "2aef8d36-5035-41c9-b7b9-d123c14961ff"
+    }
+  ],
+  "category": 3,
+  "client": "e0f099e1-92ae-4a76-8308-8512f954f188",
+  "date": "2024-02-02T00:00:00.000+01:00",
+  "name": "INTERNET PLAN 02/24",
+  "rebillable": false
+}

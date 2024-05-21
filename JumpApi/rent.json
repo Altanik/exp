@@ -1,0 +1,15 @@
+{
+  "additional_information": "{\"rent\":{\"total_area\":4500,\"work_area\":1500,\"rent_amount\":83315}}",
+  "amount": 27772,
+  "amount_wo_vat": null,
+  "attachments": [
+    {
+      "id": "1717a3c4-4bac-48eb-a0f3-151811ff5e11"
+    }
+  ],
+  "category": 25,
+  "client": "e0f099e1-92ae-4a76-8308-8512f954f188",
+  "date": "2024-01-01T00:00:00.000+01:00",
+  "name": "RENT 01/24",
+  "rebillable": false
+}
