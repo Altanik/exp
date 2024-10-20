@@ -4,6 +4,14 @@ const config = require("./config.json");
 const getRandomGuests = require("./getRandomGuests");
 const uploadFileAsBase64 = require("./uploadFileAsBase64");
 
+const expenseCategoryMap = {
+  "S": {namePrefix: "SOFTWARE", category: 5},
+  "T": {namePrefix: "TRANSPORT", category: 15},
+  "I": {namePrefix: "INTERNET PLAN", category: 3},
+  "C": {namePrefix: "CELL PLAN", category: 2},
+  "M": {namePrefix: "MEAL", category: 1},
+  "G": {namePrefix: "GROUP MEAL", category: 4}
+};
 async function sendExpenseToAPI(expense, failedExpenses) {
   const attachments = await Promise.all(
     expense.files.map(async (fileName) => {
@@ -36,13 +44,13 @@ async function sendExpenseToAPI(expense, failedExpenses) {
     amount: parseInt(expense.amount * 100),
     date: formattedDate,
     attachments,
-    name: `MEAL ${expense.date}`,
-    category: expense.type === "M" ? 1 : 4,
-    client: "e0f099e1-92ae-4a76-8308-8512f954f188",
-    rebillable: false,
+    name: `${expenseCategoryMap[expense.type].namePrefix} ${expense.date}`,
+    category: expenseCategoryMap[expense.type].category,
     additional_information:
-      expense.type === "M" ? "{}" : await getRandomGuests(expense.nbPersons),
+    expense.type === "G" ? await getRandomGuests(expense.nbPersons) : "{}",
+    client: "e0f099e1-92ae-4a76-8308-8512f954f188",
     amount_wo_vat: null,
+    rebillable: false,
   };
 
   try {

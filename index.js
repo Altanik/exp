@@ -24,8 +24,11 @@ fs.readdir(config.DIRECTORY_PATH, async (err, files) => {
   files.forEach((file) => categorizeFile(file, expenses));
 
   console.log("Inputs:");
+  console.log("Expenses Size:", expenses.length);
   console.log("Expenses:", expenses);
   console.log("\n");
+  console.log("TOTAL Amount:", expenses.reduce((acc, item) => acc + item.amount, 0));
+  console.log("\n");
 
-  // await processAndSendExpenses(expenses);
+  await processAndSendExpenses(expenses);
 });

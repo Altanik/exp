@@ -20,12 +20,14 @@ function categorizeFile(fileName, expenses) {
     let expense = expenses.find(
       (e) => e.date === date && e.type === expenseType
     );
+  
     if (!expense) {
       expense = { date, files: [], amount, type: expenseType };
       if (nbPersons) expense.nbPersons = nbPersons;
       expenses.push(expense);
-    } else if (expense.amount !== amount) {
-      console.warn(`Inconsistent amount for date: ${date}. File: ${fileName}`);
+    } else if (expenseType !== 'G' && expenseType !== 'M') {
+      expense.amount += amount;
+      expense.amount = parseFloat(expense.amount.toFixed(2));
     }
     expense.files.push(fileName);
   } else {
