@@ -6,16 +6,20 @@ const FormData = require("form-data");
 
 async function uploadFileAsBase64(filePath) {
   const form = new FormData();
+  form.append("file", fs.createReadStream(filePath), {
+    filename: path.basename(filePath),
+    contentType: "application/pdf", // Adjust based on your file type
+  });
   form.append("type", "receipt");
-  form.append("file", fs.createReadStream(filePath), path.basename(filePath));
 
   try {
     const response = await axios.post(
-      "https://app.join-jump.com/api/expenses-api/v1/attachments",
+      "https://app.join-jump.com/api/expenses-api/v3/attachments",
       form,
       {
         headers: {
           Authorization: `Bearer ${config.USER_TOKEN}`,
+          "x-jump-offer-id": 'eaf176c2-c23d-4685-abe1-90dd6d5dd8b4', 
           ...form.getHeaders(),
         },
       }
@@ -23,6 +27,7 @@ async function uploadFileAsBase64(filePath) {
 
     if (response.status === 200) {
       console.log("File uploaded successfully:", filePath);
+      console.log("File Id:", response.data.id);
       return response.data.id;
     }
     throw new Error(

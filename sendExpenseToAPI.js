@@ -55,11 +55,12 @@ async function sendExpenseToAPI(expense, failedExpenses) {
 
   try {
     const response = await axios.post(
-      "https://app.join-jump.com/api/expenses-api/v1/expenses",
+      "https://app.join-jump.com/api/expenses-api/v3/expenses",
       data,
       {
         headers: {
           Authorization: `Bearer ${config.USER_TOKEN}`,
+          "x-jump-offer-id": 'eaf176c2-c23d-4685-abe1-90dd6d5dd8b4',
           "Content-Type": "application/json",
         },
       }
