@@ -9,6 +9,7 @@ const expenseCategoryMap = {
   "T": {namePrefix: "TRANSPORT", category: 15},
   "I": {namePrefix: "INTERNET PLAN", category: 3},
   "C": {namePrefix: "CELL PLAN", category: 2},
+  "R": {namePrefix: "HARDWARE REPAIR", category: 20},
   "M": {namePrefix: "MEAL", category: 1},
   "G": {namePrefix: "GROUP MEAL", category: 4}
 };
@@ -17,7 +18,7 @@ async function sendExpenseToAPI(expense, failedExpenses) {
     expense.files.map(async (fileName) => {
       const filePath = path.join(config.DIRECTORY_PATH, fileName);
       try {
-        const attachmentId = await uploadFileAsBase64(filePath);
+        const attachmentId = await uploadFileAsBase64(filePath, expenseCategoryMap[expense.type].category);
         return attachmentId ? { id: attachmentId } : null;
       } catch (error) {
         console.error("Failed to get attachment ID for:", filePath);
@@ -36,23 +37,25 @@ async function sendExpenseToAPI(expense, failedExpenses) {
   }
 
   const [day, month, year] = expense.date.split("/");
-  const formattedDate = `${year}-${month.padStart(2, "0")}-${day.padStart(
+  const formattedDate = `${"20" + year}-${month.padStart(2, "0")}-${day.padStart(
     2,
     "0"
-  )}T01:00:00Z`;
+  )}T00:00:00.000+01:00`;
   const data = {
+    additional_information: expense.type === "G" ? await getRandomGuests(expense.nbPersons) : "{}",
     amount: parseInt(expense.amount * 100),
-    date: formattedDate,
-    attachments,
-    name: `${expenseCategoryMap[expense.type].namePrefix} ${expense.date}`,
-    category: expenseCategoryMap[expense.type].category,
-    additional_information:
-    expense.type === "G" ? await getRandomGuests(expense.nbPersons) : "{}",
-    client: "e0f099e1-92ae-4a76-8308-8512f954f188",
     amount_wo_vat: null,
+    attachments,
+    category: expenseCategoryMap[expense.type].category,
+    client: "e0f099e1-92ae-4a76-8308-8512f954f188",
+    date: formattedDate,
+    mission: "9e768864-8c2c-4806-ad7e-51f71810286f",
+    name: `${expenseCategoryMap[expense.type].namePrefix} ${expense.date}`,
     rebillable: false,
   };
 
+  console.log("Sending expense for:", JSON.stringify(data));
+  
   try {
     const response = await axios.post(
       "https://app.join-jump.com/api/expenses-api/v3/expenses",
@@ -61,7 +64,6 @@ async function sendExpenseToAPI(expense, failedExpenses) {
         headers: {
           Authorization: `Bearer ${config.USER_TOKEN}`,
           "x-jump-offer-id": 'eaf176c2-c23d-4685-abe1-90dd6d5dd8b4',
-          "Content-Type": "application/json",
         },
       }
     );

@@ -1,0 +1,226 @@
+[
+  {
+    "id": 3,
+    "icon": "📡",
+    "name": "Abonnement Internet",
+    "selectable": true,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 2,
+    "icon": "☎️",
+    "name": "Abonnement téléphonique",
+    "selectable": true,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 1,
+    "icon": "🍔",
+    "name": "Repas personnel",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 31,
+    "icon": "🧱",
+    "name": "Logement (locataires)",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 32,
+    "icon": "🧱",
+    "name": "Logement (propriétaires)",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 30,
+    "icon": "🚙",
+    "name": "Indemnités kilométriques",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 5,
+    "icon": "🌐",
+    "name": "Logiciels, abonnements et hébergement",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 15,
+    "icon": "🎟️",
+    "name": "Transports ponctuels (avion, train, métro,…)",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 4,
+    "icon": "🍽️",
+    "name": "Repas d'affaires",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 6,
+    "icon": "💻",
+    "name": "Matériel NTIC",
+    "selectable": true,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 7,
+    "icon": "🚌",
+    "name": "Abonnement transports",
+    "selectable": true,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 8,
+    "icon": "📠",
+    "name": "Fournitures de bureau",
+    "selectable": true,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 9,
+    "icon": "🪑",
+    "name": "Mobilier de bureau",
+    "selectable": true,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 10,
+    "icon": "🏠",
+    "name": "Hébergement (Hôtellerie)",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 11,
+    "icon": "🏢",
+    "name": "Coworking",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 12,
+    "icon": "⛽",
+    "name": "Essence",
+    "selectable": false,
+    "reimbursement_rate": 50
+  },
+  {
+    "id": 13,
+    "icon": "🚦",
+    "name": "Péage",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 14,
+    "icon": "🅿️",
+    "name": "Parking",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 16,
+    "icon": "🚕",
+    "name": "Taxi",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 17,
+    "icon": "📒",
+    "name": "Documentation professionnelle",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 18,
+    "icon": "🎓",
+    "name": "Formations professionnelles & Mooc",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 19,
+    "icon": "🚗",
+    "name": "Location de véhicule",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 20,
+    "icon": "🛠️",
+    "name": "Réparation matériel",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 21,
+    "icon": "🏬",
+    "name": "Conférences & Salons",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 22,
+    "icon": "📦",
+    "name": "Autre",
+    "selectable": false,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 23,
+    "icon": "💼",
+    "name": "Frais refacturé",
+    "selectable": false,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 24,
+    "icon": "🍔",
+    "name": "Repas personnel à l'étranger",
+    "selectable": true,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 25,
+    "icon": "🏰",
+    "name": "Loyer (locataires uniquement)",
+    "selectable": false,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 26,
+    "icon": "🗃",
+    "name": "Forfait de frais",
+    "selectable": false,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 27,
+    "icon": "🏬",
+    "name": "Charges de copropriété (propriétaires uniquement)",
+    "selectable": false,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 28,
+    "icon": "🏠",
+    "name": "Taxe foncière (propriétaires uniquement)",
+    "selectable": false,
+    "reimbursement_rate": 100
+  },
+  {
+    "id": 29,
+    "icon": "⛑️",
+    "name": "Assurance habitation",
+    "selectable": false,
+    "reimbursement_rate": 100
+  }
+]

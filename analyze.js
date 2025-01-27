@@ -1,36 +1,32 @@
-function convertExpensesToDays(expenses, year, month) {
-  return expenses
-    .filter((expense) => {
-      const [day, expMonth, expYear] = expense.date
-        .split("/")
-        .map((num) => parseInt(num, 10));
-      return expYear === year && expMonth === month;
-    })
-    .map((expense) => parseInt(expense.date.split("/")[0], 10));
-}
+const { format, parse } = require('date-fns');
+const { isWeekend, eachDayOfInterval, parseISO } = require('date-fns');
 
-function getWorkingDays(year, month, expenses, daysToExclude = []) {
-  const numberOfDays = new Date(year, month, 0).getDate();
-  const expensesDaysToExclude = convertExpensesToDays(expenses, year, month);
-  const workingDays = [];
+// Function to calculate remaining working days
+function getRemainingWorkingDays(startDate, endDate, expenses, excludeDays = []) {
+  const formatStr = "dd.MM.yy";
+  const expenseFormatStr = "dd/MM/y";
+  const parseDate = (date, formatStr) => parse(date, formatStr, new Date());
 
-  for (let day = 1; day <= numberOfDays; day++) {
-    const currentDate = new Date(year, month - 1, day); // Les mois en JavaScript sont indexés à partir de 0
-    const dayOfWeek = currentDate.getDay(); // Obtient le jour de la semaine, 0 pour Dimanche, 1 pour Lundi, etc.
+  // Parse start and end dates
+  const start = parseDate(startDate, formatStr);
+  const end = parseDate(endDate, formatStr);
 
-    // Si ce n'est ni Samedi (6) ni Dimanche (0) et que le jour n'est pas dans la liste des jours à exclure
-    if (
-      dayOfWeek !== 0 &&
-      dayOfWeek !== 6 &&
-      !expensesDaysToExclude.includes(day) &&
-      !daysToExclude.includes(day)
-    ) {
-      workingDays.push(currentDate.getDate());
-    }
-  }
+  // Parse expenses and exclusion days
+  const expenseDates = new Set(expenses.map((e) => format(parseDate(e.date, expenseFormatStr), formatStr)));
+  const excludedDates = new Set(excludeDays.map((d) => format(parseDate(d, formatStr), formatStr)));
 
-  return workingDays;
+  // Get all working days in the range
+  const workingDays = eachDayOfInterval({ start, end })
+    .filter((date) => !isWeekend(date))
+    .map((date) => format(date, formatStr));
+
+  // Filter out dates with expenses or excluded dates
+  const remainingDays = workingDays.filter(
+    (day) => !expenseDates.has(day) && !excludedDates.has(day)
+  );
+
+  return remainingDays
 }
 
 // Export the function
-module.exports = { getWorkingDays };
+module.exports = { getRemainingWorkingDays };

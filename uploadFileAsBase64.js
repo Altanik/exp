@@ -4,13 +4,14 @@ const axios = require("axios");
 const config = require("./config.json");
 const FormData = require("form-data");
 
-async function uploadFileAsBase64(filePath) {
+async function uploadFileAsBase64(filePath, category) {
   const form = new FormData();
   form.append("file", fs.createReadStream(filePath), {
     filename: path.basename(filePath),
     contentType: "application/pdf", // Adjust based on your file type
   });
   form.append("type", "receipt");
+  form.append("expense_category", ""+category);
 
   try {
     const response = await axios.post(
@@ -20,7 +21,11 @@ async function uploadFileAsBase64(filePath) {
         headers: {
           Authorization: `Bearer ${config.USER_TOKEN}`,
           "x-jump-offer-id": 'eaf176c2-c23d-4685-abe1-90dd6d5dd8b4', 
-          ...form.getHeaders(),
+          ...form.getHeaders()
+          // 'x-datadog-origin': 'rum',
+          // 'x-datadog-parent-id': '5009250776774536058',
+          // 'x-datadog-sampling-priority': '1',
+          // 'x-datadog-trace-id': '3103076597450115206',
         },
       }
     );

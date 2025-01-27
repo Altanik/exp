@@ -1,0 +1,881 @@
+[
+  {
+    "modctx": "822c49ba-99d1-43c4-84e6-766885f5497c",
+    "price": 34.26
+  },
+  {
+    "modctx": "92364c35-ce66-4cb7-bd6c-0ab0b0c06962",
+    "price": 34.01
+  },
+  {
+    "modctx": "244563b0-e93d-4ba8-b786-e0b35c5a9b71",
+    "price": 33.88
+  },
+  {
+    "modctx": "43814a98-8189-405d-b4a4-076c813c56c0",
+    "price": 31.27
+  },
+  {
+    "modctx": "36b1070f-27c4-4bd3-ba4b-79452018c3ea",
+    "price": 30.96
+  },
+  {
+    "modctx": "7a3530d5-24d4-4a49-9f61-c7944e82ec7d",
+    "price": 30.64
+  },
+  {
+    "modctx": "677edf09-6e8b-4211-ac37-08a6fad4d222",
+    "price": 30.29
+  },
+  {
+    "modctx": "39407219-5b68-4be7-a86f-c4b142845cdf",
+    "price": 29.15
+  },
+  {
+    "modctx": "be3641b1-d5b8-48b6-8633-bacdf606af86",
+    "price": 28.59
+  },
+  {
+    "modctx": "d00b90a6-3e17-4a2b-b128-c9143e65eeff",
+    "price": 27.8
+  },
+  {
+    "modctx": "0724eb94-e522-47f8-8255-bbb9ae382e7a",
+    "price": 27.68
+  },
+  {
+    "modctx": "10302296-eb51-4635-8fd4-d8c51860b64b",
+    "price": 27.46
+  },
+  {
+    "modctx": "9564e6e5-efec-42a4-b9e5-ed7090bb40f8",
+    "price": 26.82
+  },
+  {
+    "modctx": "a4f7c642-2e30-470d-afca-6a6834fe921f",
+    "price": 26.73
+  },
+  {
+    "modctx": "4dbfc270-a0b8-4200-9ddf-e5fcb7b56d5c",
+    "price": 25.62
+  },
+  {
+    "modctx": "2e5226e0-1259-4304-9a0b-b24f1e6890fc",
+    "price": 25.18
+  },
+  {
+    "modctx": "4aaca496-7990-4d19-8668-7fa0c51e5858",
+    "price": 24.75
+  },
+  {
+    "modctx": "75a43247-7128-4d22-98a8-59eba65f29be",
+    "price": 24.56
+  },
+  {
+    "modctx": "677aaa8d-016e-4feb-bbda-c6ef99bc49f1",
+    "price": 24.48
+  },
+  {
+    "modctx": "c2d3636a-306d-476c-a73b-fe723c2c28e2",
+    "price": 23.93
+  },
+  {
+    "modctx": "d8cef62b-2a64-40ae-bd31-0d4f21f2968e",
+    "price": 23.93
+  },
+  {
+    "modctx": "89cd7314-4faf-4130-baab-ef62a8f4841e",
+    "price": 23.92
+  },
+  {
+    "modctx": "160010c5-e56d-4ad9-8e7e-6f62a3dc4d15",
+    "price": 23.86
+  },
+  {
+    "modctx": "cec54a26-75fb-432d-9b3e-6f78f3d44a41",
+    "price": 23.8
+  },
+  {
+    "modctx": "0dd0a47c-209b-417a-8725-5cdb0d0a7c25",
+    "price": 23.71
+  },
+  {
+    "modctx": "6aaaaec1-a267-4cc5-99c5-686e0a93fd3a",
+    "price": 23.54
+  },
+  {
+    "modctx": "3c43b96b-84bc-4c0e-a088-19891787b514",
+    "price": 23.32
+  },
+  {
+    "modctx": "245928b6-2f6b-4574-b934-f1dc4204e453",
+    "price": 23.15
+  },
+  {
+    "modctx": "e2acdc9a-2fa6-4078-9f9a-558eeadfa595",
+    "price": 23.11
+  },
+  {
+    "modctx": "dfb635f2-7fd6-489a-b8ec-37db70ddedfd",
+    "price": 23.09
+  },
+  {
+    "modctx": "e51372d5-11fc-49d3-8d8a-9bb951d9de90",
+    "price": 23
+  },
+  {
+    "modctx": "1f228e2f-52d9-4b63-88a0-8a54603556e7",
+    "price": 22.92
+  },
+  {
+    "modctx": "fadfa5a9-bcc1-4e90-bb1a-37d4fde43fd5",
+    "price": 22.9
+  },
+  {
+    "modctx": "f2570645-af43-44ac-afd9-038e5b1ad506",
+    "price": 22.87
+  },
+  {
+    "modctx": "c6f32bd4-38c0-4e1e-ad59-04d1861510fc",
+    "price": 22.76
+  },
+  {
+    "modctx": "b5fbfaa9-ee91-4899-bb26-3f94bb3966ad",
+    "price": 22.63
+  },
+  {
+    "modctx": "bc992fd2-5788-4476-8cf1-97572be20662",
+    "price": 22.55
+  },
+  {
+    "modctx": "bdf6879d-caab-45f3-ba3a-4f0e78b9b206",
+    "price": 22.47
+  },
+  {
+    "modctx": "ede63e32-bb09-4d49-b63b-f701c126064d",
+    "price": 22.47
+  },
+  {
+    "modctx": "65d48a62-6689-4b38-a738-836ae427ca1a",
+    "price": 22.47
+  },
+  {
+    "modctx": "af9b0186-cce1-489a-bb8d-0a92adbd480c",
+    "price": 22.29
+  },
+  {
+    "modctx": "cecce34b-e0d6-4130-a252-d58cce29cf43",
+    "price": 22.04
+  },
+  {
+    "modctx": "a97ba614-afcc-4c99-8d74-752c603579a0",
+    "price": 22.04
+  },
+  {
+    "modctx": "95bd5b18-2558-47d7-b252-3705f3d0142c",
+    "price": 22.01
+  },
+  {
+    "modctx": "71a9c709-48b8-4202-88c4-f12a57b357b6",
+    "price": 21.52
+  },
+  {
+    "modctx": "701d9de0-4865-4a70-a181-6e30d580a60a",
+    "price": 21.24
+  },
+  {
+    "modctx": "af43ff9c-e05b-4303-9558-da368b74a647",
+    "price": 20.99
+  },
+  {
+    "modctx": "e0dc4a93-7f06-40dc-9342-fb6206325c6e",
+    "price": 20.41
+  },
+  {
+    "modctx": "d7c83484-6400-4ef0-ac46-490e6fb5a089",
+    "price": 20.41
+  },
+  {
+    "modctx": "1c2287ed-9efe-4018-a001-84436142cfbe",
+    "price": 20.32
+  },
+  {
+    "modctx": "d019b159-7881-42e2-b0aa-5fb300114c25",
+    "price": 20.32
+  },
+  {
+    "modctx": "08cbd404-9a7d-4eb5-8294-71c893fe1694",
+    "price": 20.28
+  },
+  {
+    "modctx": "0ac74d82-51b1-4a05-97c4-11169d86b38e",
+    "price": 20.22
+  },
+  {
+    "modctx": "56af03ff-fffb-437c-9807-2a025e280f8c",
+    "price": 20.19
+  },
+  {
+    "modctx": "8c300e6d-f7a3-4f6d-ba4e-f5e583eae495",
+    "price": 20.14
+  },
+  {
+    "modctx": "7bf95e5c-85ee-463e-9cfa-f7d210c9b0f7",
+    "price": 20.14
+  },
+  {
+    "modctx": "793c39ad-d1b4-41b8-a74e-b0a8cfdbae35",
+    "price": 20.14
+  },
+  {
+    "modctx": "e58d9b8d-43c6-4356-9ae7-9fca78e57e4c",
+    "price": 20.12
+  },
+  {
+    "modctx": "46c15e6e-412e-4fd4-bd8b-5c7546f8fd7c",
+    "price": 20.12,
+    "adjusted": true
+  },
+  {
+    "modctx": "9a953038-2c08-4b92-8873-9daf19e194be",
+    "price": 20.04
+  },
+  {
+    "modctx": "3ab503cd-48a9-44a9-9156-840511611288",
+    "price": 20.04
+  },
+  {
+    "modctx": "622127b6-c89b-4650-92b1-de9de87097ae",
+    "price": 19.93
+  },
+  {
+    "modctx": "db8a1ed3-cb49-4c6a-b1d9-7a4191477260",
+    "price": 19.93
+  },
+  {
+    "modctx": "6072738a-97c4-4d2e-ad88-967e383bcace",
+    "price": 19.93
+  },
+  {
+    "modctx": "231101f2-62d8-4ad0-84ee-13b5bd160afa",
+    "price": 19.93
+  },
+  {
+    "modctx": "4bddb739-90f7-435e-8c71-1f9d3ca15c42",
+    "price": 19.92
+  },
+  {
+    "modctx": "15a7bad7-0168-4b07-9445-a427714159bb",
+    "price": 19.92
+  },
+  {
+    "modctx": "dc6792cf-94ca-4372-86a3-839c5210abd2",
+    "price": 19.92
+  },
+  {
+    "modctx": "5b8f789f-8530-4f49-8fd6-eed73a6358fa",
+    "price": 19.91
+  },
+  {
+    "modctx": "636bec95-5ce9-44bf-aea0-6dea11c331f9",
+    "price": 19.91
+  },
+  {
+    "modctx": "36bc7813-6b18-4c8c-8798-894a5614d658",
+    "price": 19.78
+  },
+  {
+    "modctx": "10fc50fb-c77e-453a-9a09-0dee50e04787",
+    "price": 19.73
+  },
+  {
+    "modctx": "c5f7b1d1-0ab3-41a5-a94d-fac0ef29e361",
+    "price": 19.73
+  },
+  {
+    "modctx": "0794455e-7257-4a02-9f9b-4af810d2fb01",
+    "price": 19.24
+  },
+  {
+    "modctx": "6f92ba70-c671-46c0-9b51-bbb0d8e52d22",
+    "price": 19.11
+  },
+  {
+    "modctx": "016d6fa0-0b44-48cf-b641-98773f0ea95d",
+    "price": 18.88
+  },
+  {
+    "modctx": "34d4c840-0f17-4e42-af4d-a887dfbb8204",
+    "price": 18.74
+  },
+  {
+    "modctx": "c202b32e-3da2-4bf3-93ad-6a433a2c1e46",
+    "price": 18.69
+  },
+  {
+    "modctx": "bb5a74c9-cce2-4b17-b1eb-ab0980ba68e6",
+    "price": 18.63
+  },
+  {
+    "modctx": "32021adc-1a07-4dd3-b595-0118ea4fe06f",
+    "price": 18.02
+  },
+  {
+    "modctx": "5273aa55-58b2-4eb9-8277-e1077624e449",
+    "price": 18.02
+  },
+  {
+    "modctx": "9ea9dbf7-1101-4def-81cc-5823b47487cc",
+    "price": 18.01
+  },
+  {
+    "modctx": "89bf5388-2cf0-4af8-978b-7aaa4cd214f6",
+    "price": 17.95
+  },
+  {
+    "modctx": "ab3906ad-7656-45c3-83e4-5e409c81a083",
+    "price": 17.92
+  },
+  {
+    "modctx": "7e27ec90-d102-4955-aba7-01cc02f0eb0f",
+    "price": 17.81
+  },
+  {
+    "modctx": "be613737-3108-4cb3-a9f9-ac58edfb3978",
+    "price": 17.74
+  },
+  {
+    "modctx": "b23b0128-e2ff-4fe3-afab-004924cfb676",
+    "price": 17.64
+  },
+  {
+    "modctx": "e44521a3-dd1c-4727-ab3a-111751916f46",
+    "price": 17.59
+  },
+  {
+    "modctx": "7319dd88-4a41-41e3-bf49-75f5e780bcef",
+    "price": 17.49
+  },
+  {
+    "modctx": "09947adc-66bc-4809-8296-16b64f997e37",
+    "price": 17.39
+  },
+  {
+    "modctx": "f16ca091-7ff9-450b-8aca-da38554245f5",
+    "price": 17.39
+  },
+  {
+    "modctx": "0bf3182e-63f5-4ae6-9da7-5a5f7bc61932",
+    "price": 17.39
+  },
+  {
+    "modctx": "7d0ba73f-9380-40ba-a61f-ede161515215",
+    "price": 17.29
+  },
+  {
+    "modctx": "1f1edfef-cbc2-4c0a-a795-6142e4816cd2",
+    "price": 17.28
+  },
+  {
+    "modctx": "3d332d04-ac9d-4bb6-b191-9cf76d10f37b",
+    "price": 17.28
+  },
+  {
+    "modctx": "f154c6a0-85cc-4cbc-8765-4a5891d44dff",
+    "price": 17.28
+  },
+  {
+    "modctx": "09814df9-b36c-4228-96a7-bf6110a1cc8c",
+    "price": 17.25
+  },
+  {
+    "modctx": "d27d9607-db99-4a68-b9ca-14aff72c6f9d",
+    "price": 17
+  },
+  {
+    "modctx": "6e1ce08f-8c62-45cc-95ee-d03ea85005ae",
+    "price": 17
+  },
+  {
+    "modctx": "29ce213c-a257-470a-9d8f-50f05dd96dfc",
+    "price": 17
+  },
+  {
+    "modctx": "4e262b20-ece9-4b8b-8435-ef59a9255117",
+    "price": 16.79
+  },
+  {
+    "modctx": "07e31a15-2353-40ff-8b6d-d945358c9ea5",
+    "price": 16.77
+  },
+  {
+    "modctx": "1682032f-69ea-411e-8356-a6bb96a7c0f3",
+    "price": 16.74,
+    "adjusted": true
+  },
+  {
+    "modctx": "ad50d9d0-79d9-47ac-a7ce-ee8810e3f6ce",
+    "price": 16.74
+  },
+  {
+    "modctx": "4faf7980-351b-4dc0-bc79-2a16166d926d",
+    "price": 16.69
+  },
+  {
+    "modctx": "e9c9a971-5b4e-4389-9f0e-c10617a224ad",
+    "price": 16.69
+  },
+  {
+    "modctx": "e0b41808-e14f-45a6-a192-cbcbccd3c21e",
+    "price": 16.59
+  },
+  {
+    "modctx": "6a9448eb-e7f9-412e-850b-ebfa96dc6a7e",
+    "price": 16.58
+  },
+  {
+    "modctx": "406cd61b-a7f4-409c-b48c-bfb3367618a6",
+    "price": 16.35
+  },
+  {
+    "modctx": "d6af56d6-576f-42a3-861a-4befd15034cc",
+    "price": 16.27
+  },
+  {
+    "modctx": "c6c62cfe-9462-4c5d-8a04-006c0415fee5",
+    "price": 16.23
+  },
+  {
+    "modctx": "5fc1de58-d0b4-4b5c-bc87-63507a62d47c",
+    "price": 16.17
+  },
+  {
+    "modctx": "2e97b44a-8172-45fe-b298-6909dae0c126",
+    "price": 16.17
+  },
+  {
+    "modctx": "a18b8652-5ea8-4779-a6d6-d9a513bb9e9c",
+    "price": 16.13
+  },
+  {
+    "modctx": "2693d6e9-d122-4088-9b62-320a0033ac3e",
+    "price": 16.13
+  },
+  {
+    "modctx": "6ed28c80-8b3a-4474-90db-2539eeb7f917",
+    "price": 16.13
+  },
+  {
+    "modctx": "c151ee32-c27d-4abb-aa22-691446933968",
+    "price": 15.9
+  },
+  {
+    "modctx": "01758064-d324-4142-991f-de8a9599f6a5",
+    "price": 15.8
+  },
+  {
+    "modctx": "f88b7dc7-8048-4cad-a025-5c08d156a358",
+    "price": 15.72
+  },
+  {
+    "modctx": "eb0c6279-55d1-49d0-9a8a-c4354dd8f296",
+    "price": 15.72
+  },
+  {
+    "modctx": "ef5c1b46-a2e4-42ff-b418-6d6f8674b856",
+    "price": 15.72
+  },
+  {
+    "modctx": "678ad87a-a001-4834-bed4-a25b33fd530d",
+    "price": 15.72
+  },
+  {
+    "modctx": "f5c85d8e-8c6e-4f52-ad5c-32c551622055",
+    "price": 15.69
+  },
+  {
+    "modctx": "30e3663b-262a-47dc-bdb3-2b633aabf5e5",
+    "price": 15.69
+  },
+  {
+    "modctx": "5e5ad7f4-22b6-4b69-b9b4-d27ac71c8bfa",
+    "price": 15.69
+  },
+  {
+    "modctx": "96382874-b4ee-4bac-b802-d1205080bace",
+    "price": 15.65
+  },
+  {
+    "modctx": "03d05dbe-c694-4f76-939f-70c1d3784410",
+    "price": 15.65
+  },
+  {
+    "modctx": "8b90f55e-4485-42b8-9306-67cde0b4d72a",
+    "price": 15.62
+  },
+  {
+    "modctx": "777d19fa-f0cc-4477-a417-f1b562869a44",
+    "price": 15.55
+  },
+  {
+    "modctx": "0d26f1f6-51a4-4ddc-bc83-4603cd5e7bb8",
+    "price": 15.55
+  },
+  {
+    "modctx": "7b0f430e-c6c9-4498-9652-41dfd0a8b91d",
+    "price": 15.54
+  },
+  {
+    "modctx": "d3f2fcc3-1b3a-4ac5-99c3-18b132a48d12",
+    "price": 15.49,
+    "adjusted": true
+  },
+  {
+    "modctx": "aa1feca2-97b1-4771-b175-a2ccf67e31b2",
+    "price": 15.31
+  },
+  {
+    "modctx": "64a38b96-6d4d-4515-8435-b3045e279424",
+    "price": 15.3
+  },
+  {
+    "modctx": "96211d2e-7f70-4e8f-8391-49791ee34ae3",
+    "price": 15.3
+  },
+  {
+    "modctx": "6c42ad6f-e28b-4901-b5e1-fab12f4dc262",
+    "price": 15.24
+  },
+  {
+    "modctx": "a46d0536-2f24-4763-8a0c-ae2a75a0d2fe",
+    "price": 15.18
+  },
+  {
+    "modctx": "d33adafc-77a5-4d49-9c39-79a8cd12178c",
+    "price": 15.02
+  },
+  {
+    "modctx": "d5bc626f-43f4-49af-abe4-ac12020c67c4",
+    "price": 15.01
+  },
+  {
+    "modctx": "0e69efd7-b06f-497f-8159-73f01e7c1b8a",
+    "price": 14.96
+  },
+  {
+    "modctx": "d9e25e2e-b8f3-42dd-bf76-bf613cb2b8c2",
+    "price": 14.91
+  },
+  {
+    "modctx": "f2278356-47f6-475a-bf03-bfa2b186b340",
+    "price": 14.76
+  },
+  {
+    "modctx": "17427e0d-e236-441f-9402-c2aa400c5b9a",
+    "price": 14.74
+  },
+  {
+    "modctx": "6b6f7dc1-547d-4b61-b1ca-1ff7e359542a",
+    "price": 14.7,
+    "adjusted": true
+  },
+  {
+    "modctx": "61055dea-c3e2-4552-982f-74699b35942f",
+    "price": 14.7
+  },
+  {
+    "modctx": "8102a45e-4d1c-4f7d-8ce3-7519d062bd6d",
+    "price": 14.66
+  },
+  {
+    "modctx": "8d46c780-daaf-424b-a9cc-c7c58b98a9a9",
+    "price": 14.63
+  },
+  {
+    "modctx": "e22503fb-1400-4160-89fd-6fa358965efa",
+    "price": 14.48
+  },
+  {
+    "modctx": "a342688d-6534-4ab1-a4d6-00729aedbb21",
+    "price": 14.48
+  },
+  {
+    "modctx": "043cd1a8-5949-481d-85bd-7017b9f8ee51",
+    "price": 14.43,
+    "adjusted": true
+  },
+  {
+    "modctx": "5981f1ae-778a-4b2d-b5ed-3df8bc045d93",
+    "price": 14.31
+  },
+  {
+    "modctx": "20db0575-335f-4b60-8e0f-e155b7eed4f0",
+    "price": 14.31
+  },
+  {
+    "modctx": "0bb15a4a-71a6-4014-b4c5-22b21b0a02ef",
+    "price": 14.24
+  },
+  {
+    "modctx": "268c5aeb-874d-4220-9cfd-fbf8355fce90",
+    "price": 14.24
+  },
+  {
+    "modctx": "7404dcd8-daf9-46cc-8fcc-1d38d094cd92",
+    "price": 14.21
+  },
+  {
+    "modctx": "30608afb-06bf-498b-baf6-ad9efdd12abf",
+    "price": 13.89
+  },
+  {
+    "modctx": "adec1293-29bd-4be2-91bb-608d4235d4f4",
+    "price": 13.87
+  },
+  {
+    "modctx": "0d42fac5-e370-42b7-8064-0619673909bf",
+    "price": 13.78
+  },
+  {
+    "modctx": "df8d70bc-38ce-4a8e-98a0-2ecccab75a7f",
+    "price": 13.78
+  },
+  {
+    "modctx": "0b83f5f0-e714-4e98-abe3-efb4ea3b4d98",
+    "price": 13.78
+  },
+  {
+    "modctx": "c0f0e7bf-eed4-425d-9065-34f67790cc0a",
+    "price": 13.77
+  },
+  {
+    "modctx": "6dd19b6c-6258-45e2-9510-058c105d94f8",
+    "price": 13.61
+  },
+  {
+    "modctx": "ecde168f-a4e2-4a62-906c-390161204bf9",
+    "price": 13.56
+  },
+  {
+    "modctx": "a1927d3f-a387-481e-a0d8-1909aceed110",
+    "price": 13.04
+  },
+  {
+    "modctx": "f75e81d1-f47c-4e12-94d2-2945cff4386f",
+    "price": 12.99
+  },
+  {
+    "modctx": "c8e6c825-959d-45fe-8384-0ef0a0b646b1",
+    "price": 12.99
+  },
+  {
+    "modctx": "6e97205b-5eda-4053-9557-51a531bf7a2c",
+    "price": 12.99
+  },
+  {
+    "modctx": "1fb2cb99-4928-4170-92f9-ff332566fc56",
+    "price": 12.99
+  },
+  {
+    "modctx": "6ea65e9b-9162-4455-a736-7e7cef35ffad",
+    "price": 12.96
+  },
+  {
+    "modctx": "874f03aa-5082-4bf0-95cc-fb3d57db2c0d",
+    "price": 12.87
+  },
+  {
+    "modctx": "ade028cc-a4fc-4989-9c48-00e4b4648912",
+    "price": 12.87
+  },
+  {
+    "modctx": "5962a0a0-c8c0-43e6-9071-ff1d91171c72",
+    "price": 12.74
+  },
+  {
+    "modctx": "a88995d8-2f6e-4345-bd19-4d03fc9e1d75",
+    "price": 12.74
+  },
+  {
+    "modctx": "c1df90e3-f57a-4f69-be5d-b479b81fc6ed",
+    "price": 12.72
+  },
+  {
+    "modctx": "1e0c8868-c7ec-4fbb-a3a2-58312d4823d5",
+    "price": 12.72
+  },
+  {
+    "modctx": "23929c7c-8d9c-4ce2-baee-cd17d0986ca4",
+    "price": 12.72,
+    "adjusted": true
+  },
+  {
+    "modctx": "5c0d271d-5546-4b0f-ae2d-48c8cfbf7df6",
+    "price": 12.72
+  },
+  {
+    "modctx": "a805dad1-0916-4a33-bd3c-12a60c8beab3",
+    "price": 12.72
+  },
+  {
+    "modctx": "15e2af10-4d77-4247-8b2d-355a22086867",
+    "price": 12.72
+  },
+  {
+    "modctx": "3151afee-1778-4493-bb65-97bb428f59fd",
+    "price": 12.6
+  },
+  {
+    "modctx": "2407423b-744a-4ed5-b9bc-96cc732bffa9",
+    "price": 12.6
+  },
+  {
+    "modctx": "2a4bdc42-91ed-4924-84eb-065ce078d0fa",
+    "price": 12.6
+  },
+  {
+    "modctx": "cc0cc862-e278-43ed-802c-6d03d16ff5ef",
+    "price": 12.6
+  },
+  {
+    "modctx": "cc203fe4-0471-4f48-83d8-0e1af6a3eadf",
+    "price": 12.6
+  },
+  {
+    "modctx": "e6a510a1-df76-4aca-a75f-dd3e9689d15e",
+    "price": 12.6
+  },
+  {
+    "modctx": "bc00cec8-98ae-4f24-96e1-38f2c9405d6b",
+    "price": 12.6
+  },
+  {
+    "modctx": "bda35098-47e6-4797-940d-533bbdef2501",
+    "price": 12.58
+  },
+  {
+    "modctx": "51562f7e-1a56-45c7-b7f0-bfbac8d2d09e",
+    "price": 12.48
+  },
+  {
+    "modctx": "63e87fd5-3b00-4b00-8748-c5a99fbfc92e",
+    "price": 12.48
+  },
+  {
+    "modctx": "3af3e684-dcfd-4a6a-9498-5cbb7affc44c",
+    "price": 12.48
+  },
+  {
+    "modctx": "82c6e029-2994-4c14-8e7c-907b40e6e4b3",
+    "price": 12.48
+  },
+  {
+    "modctx": "7bdd5175-9a71-450f-a179-bd7c4314d58a",
+    "price": 12.43
+  },
+  {
+    "modctx": "66d3a946-f19d-4a75-8111-fbb5a2a9f4c7",
+    "price": 12.43
+  },
+  {
+    "modctx": "0976b68a-3811-44ce-b757-1741d702a0fa",
+    "price": 12.43
+  },
+  {
+    "modctx": "605f43c0-8de5-4424-b5bb-80ae95224661",
+    "price": 12.12
+  },
+  {
+    "modctx": "8f3e7459-a2dc-4e4c-b74d-009628c51cf1",
+    "price": 11.87
+  },
+  {
+    "modctx": "a03206ec-cc02-4585-b053-73f1bcbe31df",
+    "price": 11.25,
+    "adjusted": true
+  },
+  {
+    "modctx": "74291ff6-a4b9-41cb-be6d-1c659fa98777",
+    "price": 11.11
+  },
+  {
+    "modctx": "4c37e256-d664-4244-9f90-aecdd0536e46",
+    "price": 11.11
+  },
+  {
+    "modctx": "c9084a5d-cd3e-420e-a57c-4e7a0fc9ee43",
+    "price": 10.92
+  },
+  {
+    "modctx": "78e42c1f-30f8-4259-871b-aff54e92a94e",
+    "price": 10.66,
+    "adjusted": true
+  },
+  {
+    "modctx": "726a0170-97d6-4f30-a738-4f20d468fc60",
+    "price": 10.03
+  },
+  {
+    "modctx": "8834cfda-6b32-4510-a1f6-60d28267dc9e",
+    "price": 10
+  },
+  {
+    "modctx": "ad5813a9-0246-4657-aa9b-dce9eebde7bd",
+    "price": 9.73
+  },
+  {
+    "modctx": "22b60417-1ddf-41cc-b1a9-96b525e0e4e6",
+    "price": 9.69
+  },
+  {
+    "modctx": "f7c2f5da-f87d-4f8c-ac28-eeff1ead4697",
+    "price": 9.34,
+    "adjusted": true
+  },
+  {
+    "modctx": "70faba87-4cca-41cd-a113-15c5c3759ff3",
+    "price": 9.19
+  },
+  {
+    "modctx": "be816a01-f6bb-4705-b7b1-0fb64dd1b35d",
+    "price": 8.92,
+    "adjusted": true
+  },
+  {
+    "modctx": "c3bbfe9d-a10d-48a3-9eaf-6ba89273a27b",
+    "price": 8.7
+  },
+  {
+    "modctx": "365a989f-f3fb-4989-b2ce-8432c41a4ecc",
+    "price": 7.9,
+    "adjusted": true
+  },
+  {
+    "modctx": "6b7110fd-d126-4cbd-95e4-6f2e37983be5",
+    "price": 7.71
+  },
+  {
+    "modctx": "835ab337-64f6-4152-8406-6cfdfc72392b",
+    "price": 7.61,
+    "adjusted": true
+  },
+  {
+    "modctx": "8e114bc4-fc6f-4c7b-9a6d-5d97b5c24a44",
+    "price": 5.7
+  },
+  {
+    "modctx": "7a89fbc8-1972-4ec7-80b0-636db11698c0",
+    "price": 5.2,
+    "adjusted": true
+  },
+  {
+    "modctx": "8eb7eb81-83d2-4872-9971-304105d0d8f9",
+    "price": 3.48,
+    "adjusted": true
+  },
+  {
+    "modctx": "922b813c-a1c8-45f2-9d9c-792fb704b5d6",
+    "price": 0.54,
+    "adjusted": true
+  }
+]
