@@ -52,7 +52,7 @@ async function generateReceipts(remainingDays) {
     const formattedShortDate = format(parsedDate, 'M/d/yy');
     const fullDate = format(parsedDate, 'MMMM d, yyyy');
 
-    htmlContent = htmlContent.replace(/MM\/DD\/YY/g, `${formattedShortDate} ${getRandomTime()}`);
+    htmlContent = htmlContent.replace(/MM\/DD\/YY/g, `${formattedShortDate}`);
     htmlContent = htmlContent.replace(/Month DD, YYYY/g, fullDate);
 
     // Set HTML content and generate PDF

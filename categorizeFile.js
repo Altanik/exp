@@ -6,16 +6,16 @@ function categorizeFile(fileName, expenses) {
   const expenseType = fileName[0];
   const regex =
     expenseType === "G"
-      ? /^G\s(\d+)\.(\d+)\.(\d+)\s([\d.]+)\s(\d+)/
-      : /\s(\d+)\.(\d+)\.(\d+)\s([\d.]+)/;
+      ? /^G\s(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?\s([\d.]+)\s(\d+)/
+      :  /\s(\d{1,2})\.(\d{1,2})(?:\.(\d{2,4}))?\s([\d.]+)/;
   const match = fileName.match(regex);
 
   if (match) {
     const day = match[1];
     const month = match[2];
-    const year = match[3];
+    const year = match[3] ?? "25";
     const amount = parseFloat(match[4]);
-    const date = `${day.padStart(2, "0")}/${month.padStart(2, "0")}/${year}`;
+    const date = `${day.padStart(2, "0")}/${month.padStart(2, "0")}/${year.padStart(4, "20")}`;
     const nbPersons = expenseType === "G" ? parseInt(match[5], 10) : null;
 
     let expense = expenses.find(

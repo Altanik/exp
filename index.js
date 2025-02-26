@@ -34,8 +34,9 @@ fs.readdir(config.DIRECTORY_PATH, async (err, files) => {
   console.log("\n");
 
   // Analyzing current expenses and Get the working days of current month
-  const remainingDays = getRemainingWorkingDays('06.12.24','26.01.25', expenses.filter(e => e.type === 'M')
-    , ['25.12.24', '01.01.25']);
+  // const remainingDays = getRemainingWorkingDays('06.12.24','26.01.25', expenses.filter(e => e.type === 'M')
+  //   , ['25.12.24', '01.01.25']);
+  const remainingDays = getRemainingWorkingDays('26.01.25','26.02.25', expenses.filter(e => e.type === 'M'));
   console.log('remainingDays: ', remainingDays);
 
   // generateReceipts(remainingDays).catch((err) => console.error(err));

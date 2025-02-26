@@ -37,7 +37,7 @@ async function sendExpenseToAPI(expense, failedExpenses) {
   }
 
   const [day, month, year] = expense.date.split("/");
-  const formattedDate = `${"20" + year}-${month.padStart(2, "0")}-${day.padStart(
+  const formattedDate = `${year}-${month.padStart(2, "0")}-${day.padStart(
     2,
     "0"
   )}T00:00:00.000+01:00`;
@@ -47,12 +47,18 @@ async function sendExpenseToAPI(expense, failedExpenses) {
     amount_wo_vat: null,
     attachments,
     category: expenseCategoryMap[expense.type].category,
-    client: "e0f099e1-92ae-4a76-8308-8512f954f188",
+    // client: "e0f099e1-92ae-4a76-8308-8512f954f188",
     date: formattedDate,
-    mission: "9e768864-8c2c-4806-ad7e-51f71810286f",
+    // mission: "9e768864-8c2c-4806-ad7e-51f71810286f",
     name: `${expenseCategoryMap[expense.type].namePrefix} ${expense.date}`,
     rebillable: false,
   };
+  if(data.date.startsWith('2025-02')) {
+    data.mission = "prospecting";
+  } else {
+    data.mission = "eaf176c2-c23d-4685-abe1-90dd6d5dd8b4";
+    data.client = "e0f099e1-92ae-4a76-8308-8512f954f188";
+  }
 
   console.log("Sending expense for:", JSON.stringify(data));
   
